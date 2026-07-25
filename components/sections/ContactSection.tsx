@@ -1,12 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const links = [
   { label: "Email me", detail: "devang.srivastava@example.com", href: "mailto:devang.srivastava@example.com", icon: Mail, colors: "border-cyan-300/25 bg-cyan-300/10 text-cyan-100" },
-  { label: "LinkedIn", detail: "Let’s connect", href: "#", icon: Linkedin, colors: "border-blue-300/25 bg-blue-300/10 text-blue-100" },
-  { label: "GitHub", detail: "See the code", href: "#", icon: Github, colors: "border-violet-300/25 bg-violet-300/10 text-violet-100" },
+  { label: "LinkedIn", detail: "Let’s connect", href: "#", icon: FaLinkedin, colors: "border-blue-300/25 bg-blue-300/10 text-blue-100" },
+  { label: "GitHub", detail: "See the code", href: "#", icon: FaGithub, colors: "border-violet-300/25 bg-violet-300/10 text-violet-100" },
 ];
 
 export default function ContactSection() {
