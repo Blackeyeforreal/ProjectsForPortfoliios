@@ -1,0 +1,25 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+/* Custom global styles for premium feel */
+body {
+  background-color: #020617;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Utility class to ensure smooth scrolling across the site */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(34, 211, 238, .3);
+  color: #fff;
+}
+
+@layer utilities {
+  .section-shell { @apply relative mx-auto max-w-7xl px-5 sm:px-8 lg:px-10; }
+  .eyebrow { @apply mb-4 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300; }
+  .section-title { @apply text-3xl font-bold tracking-[-0.04em] text-white sm:text-4xl; }
+}
