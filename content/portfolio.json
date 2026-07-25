@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Devang Srivastava",
+    "brand": "Devang.dev",
+    "role": "Specialist Programmer",
+    "description": "Specialist Programmer building world-class, performant web experiences with Next.js and modern design principles.",
+    "resumeUrl": "/resume/devang_srivastava.pdf",
+    "location": "Available remotely · San Francisco, CA"
+  },
+  "hero": {
+    "availability": "Available for impactful work",
+    "titlePrefix": "Hi, I’m",
+    "intro": "Specialist Programmer building world-class, performant web experiences with Next.js and modern design principles. Passionate about backend engineering, microservices, and AI.",
+    "primaryCta": { "label": "Explore my work", "href": "#projects" },
+    "secondaryCta": { "label": "Say hello", "href": "#contact" },
+    "badges": ["☕ Powered by curiosity", "⚡ Fast by default", "✦ Detail obsessed"]
+  },
+  "about": {
+    "eyebrow": "A little about me",
+    "title": "Engineering reliable experiences, end to end.",
+    "description": "I’m Devang, a programmer who enjoys translating ambitious product ideas into fast, maintainable software. My work spans microservices, modern web interfaces, and the details that make a product feel considered.",
+    "cta": { "label": "Let’s work together", "href": "#contact" },
+    "strengths": [
+      { "icon": "server", "title": "Systems that scale", "text": "Thoughtful backend architecture, clean APIs, and dependable services.", "accent": "cyan" },
+      { "icon": "braces", "title": "Interfaces with intent", "text": "Responsive products that make complicated workflows feel simple.", "accent": "amber" },
+      { "icon": "sparkles", "title": "Practical AI", "text": "Useful automation and intelligent features grounded in real needs.", "accent": "pink" }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Career path ✦",
+    "title": "Experience",
+    "description": "A chronological journey through building scalable, high-impact systems.",
+    "status": "Still levelling up",
+    "items": [
+      { "date": "Jan 2022 - Present", "title": "Specialist Programmer", "company": "Infosys", "description": "Developed and maintained large-scale enterprise applications using Spring Boot, focusing on robust microservices architecture.", "achievements": ["Led migration of legacy services to modern REST APIs.", "Optimized database queries reducing latency by 30%."] },
+      { "date": "Jun 2021 - Dec 2021", "title": "Junior Developer Intern", "company": "TechCorp Solutions", "description": "Assisted in the development of a client-facing web portal using React and Next.js, focusing on component reusability.", "achievements": ["Implemented responsive UI components for mobile view.", "Contributed to API integration testing."] }
+    ]
+  },
+  "skills": {
+    "title": "Core Competencies",
+    "description": "A curated selection of technologies and methodologies that define my engineering practice.",
+    "competencies": [
+      { "category": "Backend", "name": "Microservices & APIs", "description": "Designing scalable, resilient services with Spring Boot, REST, and sound architecture." },
+      { "category": "Frontend", "name": "React & Next.js", "description": "Building fast, accessible product interfaces with modern React, Next.js, and Tailwind CSS." },
+      { "category": "Cloud", "name": "Cloud & Containers", "description": "Shipping dependable applications with Docker, AWS, and practical deployment workflows." },
+      { "category": "Languages", "name": "TypeScript", "description": "Writing strongly typed, maintainable code that stays reliable as products grow." }
+    ],
+    "technologies": [
+      { "name": "React", "icon": "react", "category": "Frameworks", "color": "sky" }, { "name": "Next.js", "icon": "next", "category": "Frameworks", "color": "white" }, { "name": "TypeScript", "icon": "typescript", "category": "Languages", "color": "blue" }, { "name": "Tailwind CSS", "icon": "tailwind", "category": "Frameworks", "color": "cyan" }, { "name": "Spring Boot", "icon": "spring", "category": "Backend", "color": "lime" }, { "name": "Node.js", "icon": "node", "category": "Backend", "color": "green" }, { "name": "MySQL", "icon": "mysql", "category": "Data & Cloud", "color": "sky" }, { "name": "Docker", "icon": "docker", "category": "Tools", "color": "blue" }, { "name": "AWS", "icon": "aws", "category": "Data & Cloud", "color": "amber" }, { "name": "Git", "icon": "git", "category": "Tools", "color": "orange" }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "A few things I’ve built.",
+    "description": "Products shaped around clarity, performance, and the practical details of shipping software.",
+    "items": [
+      { "title": "Smart Load Optimizer", "type": "Spring Boot · Optimization engine", "description": "A microservices platform that helps teams model, optimize, and manage truck-load distribution at scale.", "tags": ["Spring Boot", "Microservices", "REST APIs"], "image": "", "githubUrl": "#", "demoUrl": "#", "sticker": "BUILT TO SCALE", "accent": "cyan" },
+      { "title": "AI YouTube Assistant", "type": "Chrome extension · React / Flask", "description": "A focused video companion that turns long transcripts into useful summaries, answers, and next actions.", "tags": ["React", "OpenAI APIs", "Flask"], "image": "", "githubUrl": "#", "demoUrl": "#", "sticker": "AI INSIDE", "accent": "pink" }
+    ]
+  },
+  "metrics": [
+    { "icon": "briefcase", "value": 5, "suffix": "+", "label": "Projects shipped", "detail": "From concept to deployed experience", "emoji": "🚀" }, { "icon": "rocket", "value": 2, "suffix": "+", "label": "Years building", "detail": "Full-stack engineering practice", "emoji": "🧠" }, { "icon": "gauge", "value": 95, "suffix": "%", "label": "Performance focus", "detail": "Aiming for fast, accessible products", "emoji": "⚡" }
+  ],
+  "contact": {
+    "eyebrow": "Say hello",
+    "title": "Let’s make something fun.",
+    "description": "Have an idea, an opportunity, or just a great tech recommendation? Pick your preferred way to connect.",
+    "links": [
+      { "label": "Email me", "detail": "devang.srivastava@example.com", "href": "mailto:devang.srivastava@example.com", "icon": "mail", "accent": "cyan" }, { "label": "LinkedIn", "detail": "Let’s connect", "href": "#", "icon": "linkedin", "accent": "blue" }, { "label": "GitHub", "detail": "See the code", "href": "#", "icon": "github", "accent": "violet" }
+    ]
+  },
+  "footer": { "text": "Built with caffeine & curiosity ✦", "githubUrl": "#", "linkedinUrl": "#", "privacyUrl": "/privacy", "termsUrl": "/terms" }
+}
