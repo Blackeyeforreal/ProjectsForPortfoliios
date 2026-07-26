@@ -21,8 +21,8 @@ interface ProjectsData {
   items: Project[];
 }
 const accentColorMap: { [key: string]: string } = {
-  cyan: "from-cyan-400/30 via-blue-500/10 to-transparent",
-  pink: "from-violet-400/30 via-fuchsia-500/10 to-transparent",
+  cyan: "from-electric-cyan/30 via-electric-cyan/10 to-transparent", // Maps project's cyan style
+  pink: "from-vibrant-magenta/30 via-fuchsia-500/10 to-transparent", // Maps project's magenta style
 };
 export default function ProjectsSection({ data }: { data: ProjectsData }) {
   return (
@@ -34,7 +34,7 @@ export default function ProjectsSection({ data }: { data: ProjectsData }) {
       <div className="grid gap-5 lg:grid-cols-2">
         {data.items.map((project, index) => (
           <motion.article key={project.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .2 }} transition={{ delay: index * .1 }} whileHover={{ y: -9, rotate: index ? 0.7 : -0.7 }} className="group overflow-hidden rounded-2xl border border-white/8 bg-[#0b1325] transition hover:border-cyan-400/25">
-            <div className={`relative h-44 overflow-hidden border-b border-white/5 bg-gradient-to-br ${accentColorMap[project.accent] || accentColorMap.cyan} p-6`}>
+            <div className={`relative h-44 overflow-hidden border-b border-white/5 bg-gradient-to-br ${accentColorMap[project.accent] || `from-electric-cyan/30 via-electric-cyan/10 to-transparent`} p-6`}>
               <div className="absolute -right-5 -top-6 h-36 w-36 rounded-full border border-white/10" /><div className="absolute right-14 top-12 h-20 w-20 rounded-xl border border-white/10 bg-white/5" />
               <Layers3 className="relative text-white/80" size={27} /><span className="relative mt-12 block text-xs font-semibold uppercase tracking-[.18em] text-slate-300">Case study</span><span className={`absolute right-5 top-5 rotate-6 rounded-lg border px-2 py-1 text-[10px] font-bold ${project.accent === 'cyan' ? "border-cyan-300/30 bg-cyan-300/15 text-cyan-100" : "border-pink-300/30 bg-pink-300/15 text-pink-100"}`}>{project.sticker}</span>
             </div>

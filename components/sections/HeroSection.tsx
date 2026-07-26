@@ -28,7 +28,7 @@ export default function HeroSection({ data, siteName }: { data: HeroData, siteNa
       <motion.div animate={{ y: [0, -9, 0], rotate: [-4, 2, -4] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute left-[8%] top-[23%] hidden rounded-2xl border border-amber-300/30 bg-amber-300/10 p-3 text-amber-200 shadow-lg shadow-amber-500/10 lg:block"><WandSparkles size={26} /></motion.div>
       <motion.div animate={{ y: [0, 10, 0], rotate: [5, -3, 5] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: .7 }} className="absolute right-[10%] top-[35%] hidden rounded-full border border-pink-300/30 bg-pink-400/10 p-3 text-pink-200 shadow-lg shadow-pink-500/10 lg:block"><Code2 size={26} /></motion.div>
       <div className="relative z-10 max-w-5xl space-y-7">
-        <div className="eyebrow border-amber-300/30 bg-amber-300/10 text-amber-100"><Sparkles size={13} /> {data.availability}</div>
+        <div className="eyebrow border-lime-green/30 bg-lime-green/10 text-lime-100"><Sparkles size={13} /> {data.availability}</div>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

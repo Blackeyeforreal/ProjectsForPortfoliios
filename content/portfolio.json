@@ -2,72 +2,329 @@
   "site": {
     "name": "Devang Srivastava",
     "brand": "Devang.dev",
-    "role": "Specialist Programmer",
-    "description": "Specialist Programmer building world-class, performant web experiences with Next.js and modern design principles.",
+    "role": "Specialist Programmer | Full Stack Developer",
+    "description": "Specialist Programmer at Infosys building scalable backend systems, modern web applications, and AI-powered developer tools.",
     "resumeUrl": "/resume/devang_srivastava.pdf",
-    "location": "Available remotely · San Francisco, CA"
+    "location": "India · Available for Remote Opportunities"
   },
   "hero": {
-    "availability": "Available for impactful work",
-    "titlePrefix": "Hi, I’m",
-    "intro": "Specialist Programmer building world-class, performant web experiences with Next.js and modern design principles. Passionate about backend engineering, microservices, and AI.",
-    "primaryCta": { "label": "Explore my work", "href": "#projects" },
-    "secondaryCta": { "label": "Say hello", "href": "#contact" },
-    "badges": ["☕ Powered by curiosity", "⚡ Fast by default", "✦ Detail obsessed"]
+    "availability": "Open to exciting opportunities",
+    "titlePrefix": "Hi, I'm",
+    "intro": "I'm a Full Stack Developer specializing in Spring Boot microservices, React, Next.js, and AI-powered applications. I enjoy building scalable systems, solving challenging engineering problems, and creating products that people love using.",
+    "primaryCta": {
+      "label": "View Projects",
+      "href": "#projects"
+    },
+    "secondaryCta": {
+      "label": "Contact Me",
+      "href": "#contact"
+    },
+    "badges": [
+      "☕ Coffee Driven",
+      "⚡ Performance First",
+      "🤖 AI Enthusiast"
+    ]
   },
   "about": {
-    "eyebrow": "A little about me",
-    "title": "Engineering reliable experiences, end to end.",
-    "description": "I’m Devang, a programmer who enjoys translating ambitious product ideas into fast, maintainable software. My work spans microservices, modern web interfaces, and the details that make a product feel considered.",
-    "cta": { "label": "Let’s work together", "href": "#contact" },
+    "eyebrow": "About Me",
+    "title": "Building software that scales.",
+    "description": "I'm a Specialist Programmer at Infosys with 1.5+ years of professional experience building enterprise-grade backend systems using Spring Boot and Microservices. Alongside backend development, I build modern React and Next.js applications, AI-powered tools, and enjoy solving algorithmic challenges through competitive programming.",
+    "cta": {
+      "label": "Let's Connect",
+      "href": "#contact"
+    },
     "strengths": [
-      { "icon": "server", "title": "Systems that scale", "text": "Thoughtful backend architecture, clean APIs, and dependable services.", "accent": "cyan" },
-      { "icon": "braces", "title": "Interfaces with intent", "text": "Responsive products that make complicated workflows feel simple.", "accent": "amber" },
-      { "icon": "sparkles", "title": "Practical AI", "text": "Useful automation and intelligent features grounded in real needs.", "accent": "pink" }
+      {
+        "icon": "server",
+        "title": "Backend Engineering",
+        "text": "Designing scalable microservices, REST APIs, distributed systems, and enterprise applications.",
+        "accent": "cyan"
+      },
+      {
+        "icon": "braces",
+        "title": "Modern Frontend",
+        "text": "Building responsive, high-performance web applications using React, Next.js, and TypeScript.",
+        "accent": "amber"
+      },
+      {
+        "icon": "sparkles",
+        "title": "AI Applications",
+        "text": "Developing AI-powered developer tools, Chrome extensions, and automation solutions.",
+        "accent": "pink"
+      }
     ]
   },
   "experience": {
-    "eyebrow": "Career path ✦",
-    "title": "Experience",
-    "description": "A chronological journey through building scalable, high-impact systems.",
-    "status": "Still levelling up",
+    "eyebrow": "Professional Experience",
+    "title": "Career Journey",
+    "description": "Building enterprise software and modern web applications.",
+    "status": "Currently at Infosys",
     "items": [
-      { "date": "Jan 2022 - Present", "title": "Specialist Programmer", "company": "Infosys", "description": "Developed and maintained large-scale enterprise applications using Spring Boot, focusing on robust microservices architecture.", "achievements": ["Led migration of legacy services to modern REST APIs.", "Optimized database queries reducing latency by 30%."] },
-      { "date": "Jun 2021 - Dec 2021", "title": "Junior Developer Intern", "company": "TechCorp Solutions", "description": "Assisted in the development of a client-facing web portal using React and Next.js, focusing on component reusability.", "achievements": ["Implemented responsive UI components for mobile view.", "Contributed to API integration testing."] }
+      {
+        "date": "Jul 2023 - Present",
+        "title": "Specialist Programmer",
+        "company": "Infosys",
+        "description": "Building enterprise-scale applications using Spring Boot, Microservices, Java, and React while collaborating with cross-functional teams.",
+        "achievements": [
+          "Developed 15+ REST APIs for enterprise microservices.",
+          "Built Spring Batch jobs for processing large datasets.",
+          "Reduced system downtime through proactive issue resolution.",
+          "Designed microservice architecture and API documentation.",
+          "Performed regular code reviews to improve code quality."
+        ]
+      },
+      {
+        "date": "Feb 2023 - Jul 2023",
+        "title": "Power Intern",
+        "company": "Infosys",
+        "description": "Received industry-level training in Spring Boot, Java, Angular, and MySQL while contributing to AutoGPT data curation.",
+        "achievements": [
+          "Hands-on Spring Boot development.",
+          "Worked with Angular frontend.",
+          "Learned enterprise software development practices."
+        ]
+      }
     ]
   },
   "skills": {
-    "title": "Core Competencies",
-    "description": "A curated selection of technologies and methodologies that define my engineering practice.",
+    "title": "Technical Skills",
+    "description": "Technologies I work with regularly.",
     "competencies": [
-      { "category": "Backend", "name": "Microservices & APIs", "description": "Designing scalable, resilient services with Spring Boot, REST, and sound architecture." },
-      { "category": "Frontend", "name": "React & Next.js", "description": "Building fast, accessible product interfaces with modern React, Next.js, and Tailwind CSS." },
-      { "category": "Cloud", "name": "Cloud & Containers", "description": "Shipping dependable applications with Docker, AWS, and practical deployment workflows." },
-      { "category": "Languages", "name": "TypeScript", "description": "Writing strongly typed, maintainable code that stays reliable as products grow." }
+      {
+        "category": "Backend",
+        "name": "Spring Boot & Microservices",
+        "description": "Building scalable backend systems using Java, Spring Boot, REST APIs, Spring Batch, and Microservices."
+      },
+      {
+        "category": "Frontend",
+        "name": "React & Next.js",
+        "description": "Developing fast, responsive web applications with React, Next.js, TypeScript, and Tailwind CSS."
+      },
+      {
+        "category": "Cloud",
+        "name": "DevOps & Deployment",
+        "description": "Docker, Git, CI/CD, Vercel, AWS fundamentals, and production deployments."
+      },
+      {
+        "category": "Programming",
+        "name": "Problem Solving",
+        "description": "Competitive Programming, Data Structures, Algorithms, Dynamic Programming, and System Design."
+      }
     ],
     "technologies": [
-      { "name": "React", "icon": "react", "category": "Frameworks", "color": "sky" }, { "name": "Next.js", "icon": "next", "category": "Frameworks", "color": "white" }, { "name": "TypeScript", "icon": "typescript", "category": "Languages", "color": "blue" }, { "name": "Tailwind CSS", "icon": "tailwind", "category": "Frameworks", "color": "cyan" }, { "name": "Spring Boot", "icon": "spring", "category": "Backend", "color": "lime" }, { "name": "Node.js", "icon": "node", "category": "Backend", "color": "green" }, { "name": "MySQL", "icon": "mysql", "category": "Data & Cloud", "color": "sky" }, { "name": "Docker", "icon": "docker", "category": "Tools", "color": "blue" }, { "name": "AWS", "icon": "aws", "category": "Data & Cloud", "color": "amber" }, { "name": "Git", "icon": "git", "category": "Tools", "color": "orange" }
+      {
+        "name": "Java",
+        "icon": "java",
+        "category": "Languages",
+        "color": "orange"
+      },
+      {
+        "name": "Spring Boot",
+        "icon": "spring",
+        "category": "Backend",
+        "color": "green"
+      },
+      {
+        "name": "React",
+        "icon": "react",
+        "category": "Frontend",
+        "color": "sky"
+      },
+      {
+        "name": "Next.js",
+        "icon": "next",
+        "category": "Frontend",
+        "color": "white"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript",
+        "category": "Languages",
+        "color": "blue"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript",
+        "category": "Languages",
+        "color": "yellow"
+      },
+      {
+        "name": "Node.js",
+        "icon": "node",
+        "category": "Backend",
+        "color": "green"
+      },
+      {
+        "name": "Python",
+        "icon": "python",
+        "category": "Languages",
+        "color": "blue"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql",
+        "category": "Database",
+        "color": "sky"
+      },
+      {
+        "name": "Docker",
+        "icon": "docker",
+        "category": "DevOps",
+        "color": "blue"
+      },
+      {
+        "name": "Git",
+        "icon": "git",
+        "category": "Tools",
+        "color": "orange"
+      },
+      {
+        "name": "AWS",
+        "icon": "aws",
+        "category": "Cloud",
+        "color": "amber"
+      }
     ]
   },
   "projects": {
-    "eyebrow": "Selected work",
-    "title": "A few things I’ve built.",
-    "description": "Products shaped around clarity, performance, and the practical details of shipping software.",
+    "eyebrow": "Featured Projects",
+    "title": "Things I've Built",
+    "description": "Projects demonstrating backend engineering, AI integration, and modern web development.",
     "items": [
-      { "title": "Smart Load Optimizer", "type": "Spring Boot · Optimization engine", "description": "A microservices platform that helps teams model, optimize, and manage truck-load distribution at scale.", "tags": ["Spring Boot", "Microservices", "REST APIs"], "image": "", "githubUrl": "#", "demoUrl": "#", "sticker": "BUILT TO SCALE", "accent": "cyan" },
-      { "title": "AI YouTube Assistant", "type": "Chrome extension · React / Flask", "description": "A focused video companion that turns long transcripts into useful summaries, answers, and next actions.", "tags": ["React", "OpenAI APIs", "Flask"], "image": "", "githubUrl": "#", "demoUrl": "#", "sticker": "AI INSIDE", "accent": "pink" }
+      {
+        "title": "Smart Load Optimizer",
+        "type": "Spring Boot • Microservices",
+        "description": "Optimization engine that intelligently assigns freight loads based on weight, volume, delivery constraints, and maximum profitability using advanced algorithms.",
+        "tags": [
+          "Spring Boot",
+          "Java",
+          "Microservices",
+          "REST APIs",
+          "Optimization"
+        ],
+        "image": "",
+        "githubUrl": "#",
+        "demoUrl": "#",
+        "sticker": "OPTIMIZATION",
+        "accent": "cyan"
+      },
+      {
+        "title": "AI YouTube Assistant",
+        "type": "Chrome Extension • AI",
+        "description": "AI-powered Chrome extension that summarizes YouTube videos, answers questions from transcripts, and enhances learning with contextual insights.",
+        "tags": [
+          "React",
+          "Flask",
+          "OpenAI",
+          "Chrome Extension"
+        ],
+        "image": "",
+        "githubUrl": "#",
+        "demoUrl": "#",
+        "sticker": "AI POWERED",
+        "accent": "pink"
+      },
+      {
+        "title": "Real-time Collaborative Whiteboard",
+        "type": "Next.js • WebSockets",
+        "description": "A multiplayer collaborative whiteboard built with Next.js and Liveblocks featuring real-time drawing, presence, and synchronization.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Liveblocks",
+          "WebSockets"
+        ],
+        "image": "",
+        "githubUrl": "#",
+        "demoUrl": "#",
+        "sticker": "REAL-TIME",
+        "accent": "violet"
+      },
+      {
+        "title": "Modern URL Shortener",
+        "type": "Full Stack",
+        "description": "A production-ready URL shortener featuring authentication, analytics, QR codes, custom aliases, and rate limiting.",
+        "tags": [
+          "Next.js",
+          "Prisma",
+          "PostgreSQL",
+          "NextAuth"
+        ],
+        "image": "",
+        "githubUrl": "#",
+        "demoUrl": "#",
+        "sticker": "FULL STACK",
+        "accent": "amber"
+      }
     ]
   },
   "metrics": [
-    { "icon": "briefcase", "value": 5, "suffix": "+", "label": "Projects shipped", "detail": "From concept to deployed experience", "emoji": "🚀" }, { "icon": "rocket", "value": 2, "suffix": "+", "label": "Years building", "detail": "Full-stack engineering practice", "emoji": "🧠" }, { "icon": "gauge", "value": 95, "suffix": "%", "label": "Performance focus", "detail": "Aiming for fast, accessible products", "emoji": "⚡" }
+    {
+      "icon": "briefcase",
+      "value": 10,
+      "suffix": "+",
+      "label": "Projects Built",
+      "detail": "Personal and Professional",
+      "emoji": "🚀"
+    },
+    {
+      "icon": "rocket",
+      "value": 2,
+      "suffix": "+",
+      "label": "Years Experience",
+      "detail": "Professional Software Development",
+      "emoji": "💼"
+    },
+    {
+      "icon": "server",
+      "value": 15,
+      "suffix": "+",
+      "label": "REST APIs Built",
+      "detail": "Enterprise Applications",
+      "emoji": "⚙️"
+    },
+    {
+      "icon": "code",
+      "value": 1000,
+      "suffix": "+",
+      "label": "DSA Problems",
+      "detail": "Competitive Programming",
+      "emoji": "🧩"
+    }
   ],
   "contact": {
-    "eyebrow": "Say hello",
-    "title": "Let’s make something fun.",
-    "description": "Have an idea, an opportunity, or just a great tech recommendation? Pick your preferred way to connect.",
+    "eyebrow": "Get In Touch",
+    "title": "Let's Build Something Great.",
+    "description": "Whether it's an exciting opportunity, collaboration, or just talking about technology, I'd love to hear from you.",
     "links": [
-      { "label": "Email me", "detail": "devang.srivastava@example.com", "href": "mailto:devang.srivastava@example.com", "icon": "mail", "accent": "cyan" }, { "label": "LinkedIn", "detail": "Let’s connect", "href": "#", "icon": "linkedin", "accent": "blue" }, { "label": "GitHub", "detail": "See the code", "href": "#", "icon": "github", "accent": "violet" }
+      {
+        "label": "Email",
+        "detail": "your-email@example.com",
+        "href": "mailto:your-email@example.com",
+        "icon": "mail",
+        "accent": "cyan"
+      },
+      {
+        "label": "LinkedIn",
+        "detail": "Connect with me",
+        "href": "YOUR_LINKEDIN_URL",
+        "icon": "linkedin",
+        "accent": "blue"
+      },
+      {
+        "label": "GitHub",
+        "detail": "View my repositories",
+        "href": "YOUR_GITHUB_URL",
+        "icon": "github",
+        "accent": "violet"
+      }
     ]
   },
-  "footer": { "text": "Built with caffeine & curiosity ✦", "githubUrl": "#", "linkedinUrl": "#", "privacyUrl": "/privacy", "termsUrl": "/terms" }
+  "footer": {
+    "text": "Designed & Built with Next.js, TypeScript, Tailwind CSS and ☕",
+    "githubUrl": "YOUR_GITHUB_URL",
+    "linkedinUrl": "YOUR_LINKEDIN_URL",
+    "privacyUrl": "/privacy",
+    "termsUrl": "/terms"
+  }
 }
