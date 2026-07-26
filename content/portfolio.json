@@ -104,11 +104,6 @@
         "category": "Cloud",
         "name": "DevOps & Deployment",
         "description": "Docker, Git, CI/CD, Vercel, AWS fundamentals, and production deployments."
-      },
-      {
-        "category": "Programming",
-        "name": "Problem Solving",
-        "description": "Competitive Programming, Data Structures, Algorithms, Dynamic Programming, and System Design."
       }
     ],
     "technologies": [
@@ -202,7 +197,7 @@
           "REST APIs",
           "Optimization"
         ],
-        "image": "",
+        "image": "/assets/projects/load_optimizer.png",
         "githubUrl": "#",
         "demoUrl": "#",
         "sticker": "OPTIMIZATION",
@@ -218,7 +213,7 @@
           "OpenAI",
           "Chrome Extension"
         ],
-        "image": "",
+        "image": "/assets/projects/youtube_assistant.png",
         "githubUrl": "#",
         "demoUrl": "#",
         "sticker": "AI POWERED",
@@ -234,7 +229,7 @@
           "Liveblocks",
           "WebSockets"
         ],
-        "image": "",
+        "image": "/assets/projects/shared_whiteboard.png",
         "githubUrl": "https://github.com/Blackeyeforreal/SharedWhiteBoard",
         "demoUrl": "https://shared-white-board.vercel.app/dashboard",
         "sticker": "REAL-TIME",
@@ -250,7 +245,7 @@
           "PostgreSQL",
           "NextAuth"
         ],
-        "image": "",
+        "image": "/assets/projects/url_shortener.png",
         "githubUrl": "https://github.com/Blackeyeforreal/UrlShortner",
         "demoUrl": "https://url-shortner-five-khaki.vercel.app/",
         "sticker": "FULL STACK",

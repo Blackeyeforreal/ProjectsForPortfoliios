@@ -13,6 +13,7 @@ interface Project {
   demoUrl: string;
   sticker: string;
   accent: string;
+  image: string;
 }
 interface ProjectsData {
   eyebrow: string;
@@ -60,7 +61,18 @@ export default function ProjectsSection({ data }: { data: ProjectsData }) {
           <motion.article key={project.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .2 }} transition={{ delay: index * .1 }} whileHover={{ y: -6 }} className="group overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition hover:border-accent-gold/30 hover:shadow-lg">
             <div className="relative h-32 overflow-hidden border-b border-border/60 p-5">
               {/* Picture / Gradient Preview with scale zoom animation */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${accentColorMap[project.accent] || accentColorMap.cyan} transition-transform duration-700 ease-out group-hover:scale-110`} />
+              {project.image ? (
+                <>
+                  <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110" 
+                  />
+                  <div className="absolute inset-0 bg-slate-900/10 transition-opacity duration-300 group-hover:opacity-30" />
+                </>
+              ) : (
+                <div className={`absolute inset-0 bg-gradient-to-br ${accentColorMap[project.accent] || accentColorMap.cyan} transition-transform duration-700 ease-out group-hover:scale-110`} />
+              )}
               <div className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-110 pointer-events-none">
                 <div className="absolute -right-5 -top-6 h-28 w-28 rounded-full border border-border/40" />
                 <div className="absolute right-10 top-8 h-16 w-16 rounded-xl border border-border/40 bg-white/10" />
