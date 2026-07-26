@@ -38,24 +38,24 @@ const SkillCard = ({ category, name, description, icon: Icon }: { category: stri
     viewport={{ once: true, amount: 0.2 }}
     transition={{ duration: 0.25 }}
     whileHover={{ y: -6, rotate: -0.5 }}
-    className="bg-[#0F172A] p-8 rounded-xl shadow-2xl border border-gray-800/50 cursor-pointer hover:border-cyan-500/50 transition duration-150 group"
+    className="bg-card p-8 rounded-xl shadow-md border border-border cursor-pointer hover:border-accent-gold/40 hover:shadow-lg transition duration-150 group"
   >
     <div className="flex items-center mb-4">
-      <div className="p-3 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-full mr-4 shadow-lg transition duration-300 group-hover:scale-110">
-        <Icon className="w-8 h-8 text-white" />
+      <div className="p-3 bg-gradient-to-br from-accent-gold to-accent-rose rounded-full mr-4 shadow-lg transition duration-300 group-hover:scale-110">
+        <Icon className="w-8 h-8 text-white dark:text-slate-950" />
       </div>
-      <h3 className="text-2xl font-bold text-gray-50">{name}</h3>
+      <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100">{name}</h3>
     </div>
-    <p className="text-gray-400 mb-4 flex-grow">{description}</p>
+    <p className="text-slate-600 dark:text-slate-300 mb-4 flex-grow">{description}</p>
     
     {/* Progress Indicator Placeholder */}
-    <div className="mt-4 pt-4 border-t border-gray-800">
-        <div className="flex justify-between text-sm font-medium text-cyan-300 mb-1">
+    <div className="mt-4 pt-4 border-t border-border">
+        <div className="flex justify-between text-sm font-medium text-accent-gold mb-1">
             <span>Proficiency</span>
             <span>90%</span> {/* Placeholder for actual progress */}
         </div>
-        <div className="w-full bg-gray-700 rounded-full h-2.5">
-            <div className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2.5 rounded-full" style={{ width: '90%' }}></div>
+        <div className="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-2.5">
+            <div className="bg-gradient-to-r from-accent-gold to-accent-rose h-2.5 rounded-full" style={{ width: '90%' }}></div>
         </div>
     </div>
   </motion.div>
@@ -72,11 +72,11 @@ export default function SkillsSection({ data }: { data: SkillsData }) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.3 }}
-        className="text-4xl sm:text-5xl font-extrabold mb-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500"
+        className="text-4xl sm:text-5xl font-extrabold mb-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-accent-gold via-accent-rose to-accent-emerald"
       >
         {data.title}
       </motion.h2>
-      <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto mb-8 text-center">
+      <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-3xl mx-auto mb-8 text-center">
         {data.description}
       </p>
 
@@ -92,12 +92,12 @@ export default function SkillsSection({ data }: { data: SkillsData }) {
             transition={{ delay: index * 0.035, duration: .2 }}
             animate={{ y: [0, index % 2 === 0 ? -3 : 3, 0] }}
             whileHover={{ y: -8, scale: 1.35, rotate: index % 2 ? 5 : -5 }}
-            className="group relative flex h-10 w-10 cursor-default items-center justify-center rounded-xl border border-white/10 bg-white/[.04] shadow-md shadow-black/10 transition-colors duration-150 hover:border-cyan-300/50 hover:bg-white/[.12]"
+            className="group relative flex h-10 w-10 cursor-default items-center justify-center rounded-xl border border-border bg-card shadow-sm transition-colors duration-150 hover:border-accent-gold/60 hover:bg-slate-50 dark:hover:bg-slate-800"
             title={name}
             aria-label={name}
           >
             <TechIcon className={`h-5 w-5 ${color}`} />
-            <span className="pointer-events-none absolute -bottom-8 left-1/2 z-20 -translate-x-1/2 whitespace-nowrap rounded-md border border-white/10 bg-slate-950 px-2 py-1 text-[10px] font-semibold text-white opacity-0 shadow-xl transition-opacity group-hover:opacity-100">{name}</span>
+            <span className="pointer-events-none absolute -bottom-8 left-1/2 z-20 -translate-x-1/2 whitespace-nowrap rounded-md border border-border bg-slate-850 px-2 py-1 text-[10px] font-semibold text-slate-100 opacity-0 shadow-md transition-opacity group-hover:opacity-100">{name}</span>
           </motion.div>
         )})}
       </div>

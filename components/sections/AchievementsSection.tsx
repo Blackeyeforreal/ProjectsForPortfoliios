@@ -35,15 +35,15 @@ const metrics = [
 export default function AchievementsSection() {
   return (
     <section className="section-shell py-24 sm:py-32">
-      <div className="mb-12 text-center"><p className="eyebrow border-amber-300/30 bg-amber-300/10 text-amber-100">By the numbers ✦</p><h2 className="section-title">Careful work, measurable results.</h2></div>
+      <div className="mb-12 text-center"><p className="eyebrow border-accent-gold/25 bg-accent-gold/10 text-accent-gold">By the numbers ✦</p><h2 className="section-title">Careful work, measurable results.</h2></div>
       <div className="grid gap-4 md:grid-cols-3">
         {metrics.map(({ icon: Icon, value, suffix, label, detail }, index) => (
-          <motion.article key={label} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .3 }} transition={{ delay: index * .1 }} whileHover={{ y: -9, rotate: index === 1 ? -1 : 1 }} className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[.035] p-7 text-left transition hover:border-cyan-400/30 hover:bg-white/[.06]">
-            <div className={`absolute -right-7 -top-7 h-28 w-28 rounded-full blur-2xl ${index === 0 ? "bg-cyan-400/[.12]" : index === 1 ? "bg-pink-400/[.12]" : "bg-amber-400/[.12]"}`} />
-            <Icon className="relative text-cyan-300" size={21} />
-            <p className="relative mt-8 text-5xl font-bold tracking-[-.05em] text-white"><CountUp value={value} suffix={suffix} /><span className="ml-2 text-lg">{index === 0 ? "🚀" : index === 1 ? "🧠" : "⚡"}</span></p>
-            <h3 className="relative mt-3 font-semibold text-slate-100">{label}</h3>
-            <p className="relative mt-1 text-sm text-slate-400">{detail}</p>
+          <motion.article key={label} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .3 }} transition={{ delay: index * .1 }} whileHover={{ y: -9, rotate: index === 1 ? -1 : 1 }} className="relative overflow-hidden rounded-2xl border border-border bg-card p-7 text-left transition hover:border-accent-gold/30 hover:shadow-lg">
+            <div className={`absolute -right-7 -top-7 h-28 w-28 rounded-full blur-2xl ${index === 0 ? "bg-accent-gold/[.04] dark:bg-accent-gold/[.08]" : index === 1 ? "bg-accent-rose/[.04] dark:bg-accent-rose/[.08]" : "bg-accent-emerald/[.04] dark:bg-accent-emerald/[.08]"}`} />
+            <Icon className={`relative ${index === 0 ? "text-accent-gold" : index === 1 ? "text-accent-rose" : "text-accent-emerald"}`} size={21} />
+            <p className="relative mt-8 text-5xl font-bold tracking-[-.05em] text-slate-900 dark:text-slate-100"><CountUp value={value} suffix={suffix} /><span className="ml-2 text-lg">{index === 0 ? "🚀" : index === 1 ? "🧠" : "⚡"}</span></p>
+            <h3 className="relative mt-3 font-semibold text-slate-800 dark:text-slate-200">{label}</h3>
+            <p className="relative mt-1 text-sm text-slate-600 dark:text-slate-400">{detail}</p>
           </motion.article>
         ))}
       </div>

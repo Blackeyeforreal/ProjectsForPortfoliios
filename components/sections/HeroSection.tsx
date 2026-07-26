@@ -25,35 +25,35 @@ export default function HeroSection({ data, siteName }: { data: HeroData, siteNa
       </div>
 
       {/* Content Container (z-10 ensures it's above the spotlight) */}
-      <motion.div animate={{ y: [0, -9, 0], rotate: [-4, 2, -4] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute left-[8%] top-[23%] hidden rounded-2xl border border-amber-300/30 bg-amber-300/10 p-3 text-amber-200 shadow-lg shadow-amber-500/10 lg:block"><WandSparkles size={26} /></motion.div>
-      <motion.div animate={{ y: [0, 10, 0], rotate: [5, -3, 5] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: .7 }} className="absolute right-[10%] top-[35%] hidden rounded-full border border-pink-300/30 bg-pink-400/10 p-3 text-pink-200 shadow-lg shadow-pink-500/10 lg:block"><Code2 size={26} /></motion.div>
+      <motion.div animate={{ y: [0, -9, 0], rotate: [-4, 2, -4] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute left-[8%] top-[23%] hidden rounded-2xl border border-accent-gold/20 bg-white/90 dark:bg-card/50 p-3 text-accent-gold shadow-lg shadow-accent-gold/5 lg:block"><WandSparkles size={26} /></motion.div>
+      <motion.div animate={{ y: [0, 10, 0], rotate: [5, -3, 5] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: .7 }} className="absolute right-[10%] top-[35%] hidden rounded-full border border-accent-rose/20 bg-white/90 dark:bg-card/50 p-3 text-accent-rose shadow-lg shadow-accent-rose/5 lg:block"><Code2 size={26} /></motion.div>
       <div className="relative z-10 max-w-5xl space-y-7">
-        <div className="eyebrow border-lime-green/30 bg-lime-green/10 text-lime-100"><Sparkles size={13} /> {data.availability}</div>
+        <div className="eyebrow border-accent-emerald/30 bg-accent-emerald/10 text-accent-emerald"><Sparkles size={13} /> {data.availability}</div>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl font-extrabold leading-[1.04] tracking-[-0.05em] text-white sm:text-6xl md:text-8xl"
+          className="text-5xl font-extrabold leading-[1.04] tracking-[-0.05em] text-slate-900 dark:text-slate-100 sm:text-6xl md:text-8xl"
         >
-          Hi, I&apos;m <span className="bg-gradient-to-r from-cyan-200 via-fuchsia-200 to-amber-200 bg-clip-text text-transparent">{siteName}.</span>
+          Hi, I&apos;m <span className="bg-gradient-to-r from-accent-gold via-accent-rose to-accent-emerald bg-clip-text text-transparent">{siteName}.</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mx-auto max-w-2xl text-base leading-8 text-slate-300 sm:text-lg"
+          className="mx-auto max-w-2xl text-base leading-8 text-slate-600 dark:text-slate-300 sm:text-lg"
         >
           {data.intro}
         </motion.p>
         <div className="flex flex-col justify-center gap-3 pt-5 sm:flex-row">
-          <a href={data.primaryCta.href} className="rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-violet-300 px-6 py-3 text-sm font-bold text-slate-950 shadow-xl shadow-cyan-500/20 transition hover:-translate-y-1 hover:rotate-[-1deg] hover:shadow-cyan-400/30">
+          <a href={data.primaryCta.href} className="rounded-full bg-gradient-to-r from-accent-gold via-accent-rose to-purple-500 px-6 py-3 text-sm font-bold text-white dark:text-slate-950 shadow-xl shadow-accent-gold/25 transition hover:-translate-y-1 hover:rotate-[-1deg] hover:shadow-accent-gold/40">
             {data.primaryCta.label} →
           </a>
-          <a href={data.secondaryCta.href} className="rounded-full border border-pink-300/30 bg-pink-300/[0.08] px-6 py-3 text-sm font-semibold text-pink-100 transition hover:-translate-y-1 hover:rotate-[1deg] hover:border-pink-300/60 hover:bg-pink-300/[0.14]">
+          <a href={data.secondaryCta.href} className="rounded-full border border-accent-rose/30 bg-white/60 dark:bg-card/50 px-6 py-3 text-sm font-semibold text-accent-rose transition hover:-translate-y-1 hover:rotate-[1deg] hover:border-accent-rose/60 hover:bg-white/90 dark:hover:bg-card/80 hover:shadow-md">
             {data.secondaryCta.label} ✦
           </a>
         </div>
-        <div className="flex flex-wrap justify-center gap-2 pt-2 text-xs font-medium text-slate-300">{data.badges.map(badge => <span key={badge} className="rounded-full bg-white/5 px-3 py-1.5">{badge}</span>)}</div>
+        <div className="flex flex-wrap justify-center gap-2 pt-2 text-xs font-medium text-slate-600 dark:text-slate-300">{data.badges.map(badge => <span key={badge} className="rounded-full bg-white dark:bg-card/50 px-3 py-1.5 border border-slate-200 dark:border-white/5 shadow-sm">{badge}</span>)}</div>
       </div>
     </section>
   );

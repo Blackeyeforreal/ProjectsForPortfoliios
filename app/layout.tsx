@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import Header from "@/components/layout/Header";
+import ScrollProgressIndicator from "@/components/layout/ScrollProgressIndicator";
 
 export const metadata: Metadata = {
   // Replace with your actual domain
@@ -24,7 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="font-sans">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ScrollProgressIndicator />
           <Header />
           {children}
         </ThemeProvider>

@@ -14,7 +14,7 @@ export default function ScrollProgressIndicator() {
   return (
     <motion.div 
       style={{ width: progress }}
-      className="fixed top-0 left-0 h-[4px] bg-gradient-to-r from-cyan-500 to-blue-500 z-[999]"
+      className="fixed top-0 left-0 h-[4px] bg-gradient-to-r from-accent-gold to-accent-rose z-[999]"
     />
   );
 }

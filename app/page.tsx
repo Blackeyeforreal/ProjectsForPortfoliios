@@ -16,7 +16,7 @@ import "../components/layout/BackToTopButton";
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#020617] text-white">
+    <div className="relative min-h-screen overflow-hidden bg-background text-slate-800 dark:text-slate-100 transition-colors duration-300">
       <AbstractBackground />
       {/* Header is now handled in layout.tsx, but we keep it here for structure reference */}
       {/* <Header /> */}

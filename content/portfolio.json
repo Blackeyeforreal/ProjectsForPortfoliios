@@ -4,7 +4,7 @@
     "brand": "Devang.dev",
     "role": "Specialist Programmer | Full Stack Developer",
     "description": "Specialist Programmer at Infosys building scalable backend systems, modern web applications, and AI-powered developer tools.",
-    "resumeUrl": "/resume/devang_srivastava.pdf",
+    "resumeUrl": "https://drive.google.com/file/d/1K_SpzgwdcmBQtc39M8l5gPgfLckHzpZj/view?usp=drive_link",
     "location": "India · Available for Remote Opportunities"
   },
   "hero": {
@@ -235,8 +235,8 @@
           "WebSockets"
         ],
         "image": "",
-        "githubUrl": "#",
-        "demoUrl": "#",
+        "githubUrl": "https://github.com/Blackeyeforreal/SharedWhiteBoard",
+        "demoUrl": "https://shared-white-board.vercel.app/dashboard",
         "sticker": "REAL-TIME",
         "accent": "violet"
       },
@@ -251,8 +251,8 @@
           "NextAuth"
         ],
         "image": "",
-        "githubUrl": "#",
-        "demoUrl": "#",
+        "githubUrl": "https://github.com/Blackeyeforreal/UrlShortner",
+        "demoUrl": "https://url-shortner-five-khaki.vercel.app/",
         "sticker": "FULL STACK",
         "accent": "amber"
       }
@@ -307,14 +307,14 @@
       {
         "label": "LinkedIn",
         "detail": "Connect with me",
-        "href": "YOUR_LINKEDIN_URL",
+        "href": "https://www.linkedin.com/in/devangsri/",
         "icon": "linkedin",
         "accent": "blue"
       },
       {
         "label": "GitHub",
         "detail": "View my repositories",
-        "href": "YOUR_GITHUB_URL",
+        "href": "https://github.com/Blackeyeforreal",
         "icon": "github",
         "accent": "violet"
       }
@@ -322,8 +322,8 @@
   },
   "footer": {
     "text": "Designed & Built with Next.js, TypeScript, Tailwind CSS and ☕",
-    "githubUrl": "YOUR_GITHUB_URL",
-    "linkedinUrl": "YOUR_LINKEDIN_URL",
+    "githubUrl": "https://github.com/Blackeyeforreal",
+    "linkedinUrl": "https://www.linkedin.com/in/devangsri/",
     "privacyUrl": "/privacy",
     "termsUrl": "/terms"
   }

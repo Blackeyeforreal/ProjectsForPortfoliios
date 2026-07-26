@@ -32,7 +32,7 @@ export default function BackToTopButton() {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.5, duration: 0.3 }}
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 z-40 p-4 bg-gradient-to-r from-cyan-600 to-blue-500 text-white rounded-full shadow-2xl hover:scale-110 transition duration-300 focus:outline-none focus:ring-4 ring-cyan-500/50"
+      className="fixed bottom-8 right-8 z-40 p-4 bg-gradient-to-r from-accent-gold to-accent-rose text-slate-950 rounded-full shadow-2xl hover:scale-110 transition duration-300 focus:outline-none focus:ring-4 ring-accent-gold/30"
       aria-label="Back to top"
     >
       <ArrowUpCircle className="w-8 h-8" />

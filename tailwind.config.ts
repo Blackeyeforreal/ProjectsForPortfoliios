@@ -11,12 +11,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#020617", // Background color from requirements
-        card: "#0F172A",     // Card background color
-        'electric-cyan': "hsl(183, 100%, 60%)", // Neon cyan accent
-        'vibrant-magenta': "hsl(320, 90%, 65%)", // High contrast magenta accent
-        'lime-green': "hsl(100, 95%, 60%)",     // Electric green highlight
-        border: "hsl(214.3 31.8% 76.8%)", // Standard border color for dark mode
+        background: "var(--background)",
+        card: "var(--card)",
+        border: "var(--border)",
+        'accent-gold': "var(--accent-gold)",
+        'accent-rose': "var(--accent-rose)",
+        'accent-emerald': "var(--accent-emerald)",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-color-background), var(--tw-color-foreground))',
